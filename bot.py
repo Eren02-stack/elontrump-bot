@@ -7,8 +7,8 @@ import datetime
 # -------------------------
 # CONFIG
 # -------------------------
-BOT_TOKEN = "8486169884:AAGWEhcMg15C4f-jdiAEHPqnPseCLH9gWQM"  
-DAILY_ENERGY = 100
+import os
+BOT_TOKEN = os.getenv("8486169884:AAGWEhcMg15C4f-jdiAEHPqnPseCLH9gWQM")DAILY_ENERGY = 100
 TAP_POINTS = 10
 REF_POINTS = 50
 
